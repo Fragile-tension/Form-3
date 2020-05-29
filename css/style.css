@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700");
+@font-face {
+  font-family: "Chunk Five";
+  src: url(../fonts/Chunkfive.ttf) format("truetype"); }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  color: #8c8f94;
+  background-color: #ffffff;
+  font-family: "Lato";
+  margin: 0; }
+
+input {
+  color: #b9b9b9;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+  border: 1px solid #c7c7c7;
+  background-color: #ffffff;
+  border-radius: 5px;
+  outline: none; }
+
+.findonmaps {
+  padding-left: 22px; }
+
+.contact {
+  padding: 60px 0;
+  background-image: url("../img/contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .contact i {
+    margin-right: 8px;
+    font-size: 12px; }
+  .contact__title {
+    text-align: center;
+    padding: 0px 0 70px 0;
+    color: #ffffff;
+    font-family: "Chunk Five";
+    font-size: 67px;
+    font-weight: 400; }
+  .contact__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+  .contact__form {
+    -webkit-box-flex: 40%;
+    -ms-flex: 40%;
+    flex: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: right; }
+    .contact__form_container {
+      max-width: 470px; }
+      .contact__form_container .company_subject {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+    .contact__form_input {
+      margin-bottom: 20px;
+      padding: 22px 25px;
+      width: 48%; }
+    .contact__form .email, .contact__form .message {
+      width: 100%; }
+    .contact__form .message {
+      padding: 22px 25px 80px 25px; }
+    .contact__form_btn {
+      border-radius: 30px;
+      color: #ffffff;
+      font-family: "Lato";
+      font-size: 16px;
+      font-weight: 400;
+      border: none;
+      opacity: 0.9;
+      text-decoration: none;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s;
+      padding: 25px 23px 27px 23px;
+      background-color: #c3f37f; }
+      .contact__form_btn:hover {
+        background-color: #d3f6a0; }
+  .contact__separator {
+    -webkit-box-flex: 20%;
+    -ms-flex: 20%;
+    flex: 20%;
+    padding-top: 120px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; }
+  .contact__adress {
+    -webkit-box-flex: 40%;
+    -ms-flex: 40%;
+    flex: 40%; }
+    .contact__adress__title {
+      margin: 0 0 60px 0;
+      color: #ffffff;
+      font-family: "Lato";
+      font-size: 44px;
+      font-weight: 300;
+      letter-spacing: 0.22px; }
+    .contact__adress__info {
+      padding: 0px 0 10px 0;
+      line-height: 1.5;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400; }
+    .contact__adress .findonmaps {
+      color: #fff772;
+      font-style: italic;
+      text-decoration: none; }
+
+.keepintouch {
+  background-image: url("../img/keepintouch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .keepintouch__content {
+    padding: 66px 0;
+    -webkit-box-flex: 40%;
+    -ms-flex: 40%;
+    flex: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .keepintouch__content_container {
+      max-width: 470px; }
+    .keepintouch__content_title {
+      font-family: "Chunk Five";
+      font-size: 57px;
+      color: #ffffff; }
+    .keepintouch__content_text {
+      font-family: Lato;
+      font-size: 17.5px;
+      line-height: 2.03;
+      color: #ffffff; }
+  .keepintouch__separator {
+    -webkit-box-flex: 20%;
+    -ms-flex: 20%;
+    flex: 20%; }
+  .keepintouch__subscribe {
+    -webkit-box-flex: 40%;
+    -ms-flex: 40%;
+    flex: 40%; }
+  .keepintouch__subscribe_form_container {
+    margin-top: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+  .keepintouch__subscribe_form_item1 {
+    width: 85%;
+    max-width: 400px; }
+  .keepintouch__subscribe_form_input {
+    padding: 0 29px;
+    width: 100%;
+    height: 72px;
+    border-radius: 5px 0 0 5px;
+    border-right: 0; }
+  .keepintouch__subscribe_form_btn {
+    margin-top: 0;
+    width: 72px;
+    height: 72px;
+    background-color: #01a2a6;
+    outline: none;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #c7c7c7; }
